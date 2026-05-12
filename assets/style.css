@@ -66,3 +66,52 @@ h1 {
   margin-top: 10px;
 }
 /* hero end */
+
+/* information section start */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 40px 0;
+}
+
+.info-images {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  width: 200px;
+  height: auto;
+}
+
+.card-image {
+  width: 170px;
+  height: 170px;
+  outline: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.card-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 170px;
+  height: 170px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #1f2937;
+  width: 170px;
+  text-align: center;
+  margin-top: 12px;
+}
+/* information section end */
