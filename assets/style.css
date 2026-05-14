@@ -115,3 +115,28 @@ h1 {
   margin-top: 12px;
 }
 /* information section end */
+
+/* quote section start */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 320px;
+}
+
+.quote-section p {
+  font-size: 36px;
+  color: #3a3d3f;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+p.author {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 900;
+  font-style: normal;
+  text-align: right;
+  padding-right: 40px;
+  margin-top: 10px;
+}
+/* quote section end */
